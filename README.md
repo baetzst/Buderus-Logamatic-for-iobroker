@@ -31,7 +31,7 @@ Many thanks to @flyingflo for the reverse-engineering work on the protocol!
 - The firmware on the ESP8266 must send CAN messages as MQTT payload (format: `rtr;pkidHex;hexbytes...`).
 
 ## Installation and Configuration
-1. Copy the script (`logamatic4000_iobroker.js`) to your ioBroker script folder or create it via the ioBroker admin interface.
+1. Copy the script (`logamatic4000.js`) to your ioBroker script folder or create it via the ioBroker admin interface.
 2. Adjust the following variables in the script to match your environment:
    - `const MQTT_STATE = 'mqtt.0.heizung.burner.can.raw.recv';`  
      Adapt this to the ioBroker state that receives raw MQTT messages from the ESP8266. This is the path where CAN messages arrive as string payloads (e.g., `0;421;88 00 0c 19 05 13 00 00`).
