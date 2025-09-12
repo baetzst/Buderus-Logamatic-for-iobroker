@@ -16,8 +16,9 @@ The script supports monitors for:
 It is a port of the decoding logic from Python to JavaScript and runs as a script in ioBroker.
 
 ## Sources and Dependencies
-This script is based on the Python repository by flyingflo, which implements the protocol decoding:
-- [flyingflo/logamatic](https://github.com/flyingflo/logamatic): Main source for decoding and monitoring the Logamatic 4000 via MQTT.
+This script is based on the repository by flyingflo and sjs-77, which implements the protocol decoding:
+- [flyingflo/logamatic](https://github.com/flyingflo/logamatic)
+- [sjs-77/logamatic_software](https://github.com/sjs-77/logamatic2107_daten)
 
 The CAN bus interface on the ESP8266 is based on:
 - [flyingflo/heat_can](https://github.com/flyingflo/heat_can): Firmware for the ESP8266 with MCP2515 CAN controller, which sends raw CAN messages over MQTT.
