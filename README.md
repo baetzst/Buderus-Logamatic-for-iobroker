@@ -18,7 +18,7 @@ It is a port of the decoding logic from Python to JavaScript and runs as a scrip
 ## Sources and Dependencies
 This script is based on the repository by flyingflo and sjs-77, which implements the protocol decoding:
 - [flyingflo/logamatic](https://github.com/flyingflo/logamatic)
-- [sjs-77/logamatic_software](https://github.com/sjs-77/logamatic2107_daten)
+- [Peter Holzleitner](https://holzleitner.com/el/buderus-monitor/index-en.html)
 
 The CAN bus interface on the ESP8266 is based on:
 - [flyingflo/heat_can](https://github.com/flyingflo/heat_can): Firmware for the ESP8266 with MCP2515 CAN controller, which sends raw CAN messages over MQTT.
