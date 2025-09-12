@@ -16,9 +16,9 @@ The script supports monitors for:
 It is a port of the decoding logic from Python to JavaScript and runs as a script in ioBroker.
 
 ## Sources and Dependencies
-This script builds upon contributions from the community:
-- Protocol decoding is based on the repository by [flyingflo](https://github.com/flyingflo/logamatic).
-- Additional insights into decoding were taken from Peter Holzleitner's Perl script on his website: [holzleitner.com/el/buderus-monitor](https://holzleitner.com/el/buderus-monitor/index-en.html), which helped to extend the script's capabilities.
+This script builds on community contributions:
+- Protocol decoding is based on [flyingflo's repository](https://github.com/flyingflo/logamatic).
+- Additional decoding insights were drawn from Peter Holzleitner's Perl script: [holzleitner.com/el/buderus-monitor](https://holzleitner.com/el/buderus-monitor/index-en.html).
 
 
 The CAN bus interface on the ESP8266 is based on:
